@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: paragraph;
+  src: url(/fonts/CaviarDreams.ttf);
+}
+@font-face {
+  font-family: heading;
+  src: url(/fonts/Qilka-Bold.ttf);
+}
+@font-face {
+  font-family: head;
+  src: url(/fonts/Designer.otf);
+}
+
 :root {
   --bg-color: #050109;
   --pink-color: #ce7da5;

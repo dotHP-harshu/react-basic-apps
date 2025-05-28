@@ -6,29 +6,29 @@ function Navbar({ isShowingNav }) {
     <div
       className={`${
         isShowingNav ? "left-2" : "-left-full"
-      } w-fit px-4 py-4 bg-[var(--bg-color)] fixed top-20 transition-all duration-500 lg:text-xl sm:text-lg max-sm:text-base`}
+      } w-fit px-4 py-4 bg-[var(--bg-color)] fixed top-20 transition-all duration-500 lg:text-xl sm:text-lg max-sm:text-base z-20`}
     >
-      <NavLink className={"flex flex-col gap-3 "}>
-        <Link className="px-6 text-2xl font-bold " to={"/"}>
+      <div className={"flex flex-col gap-3 "}>
+        <NavLink className="px-6 text-2xl font-bold " to={"/"}>
           Home
-        </Link>
+        </NavLink>
         <hr className="w-full" />
-        <Link className="px-6" to={"/"}>
+        <NavLink className="px-6" to={"/"}>
           Home
-        </Link>
-        <Link className="px-6" to={"/"}>
+        </NavLink>
+        <NavLink className="px-6" to={"/"}>
           Home
-        </Link>
-        <Link className="px-6" to={"/"}>
+        </NavLink>
+        <NavLink className="px-6" to={"/"}>
           Home
-        </Link>
-        <Link className="px-6" to={"/"}>
+        </NavLink>
+        <NavLink className="px-6" to={"/"}>
           Home
-        </Link>
-        <Link className="px-6" to={"/"}>
+        </NavLink>
+        <NavLink className="px-6" to={"/"}>
           Home
-        </Link>
-      </NavLink>
+        </NavLink>
+      </div>
     </div>
   );
 }
