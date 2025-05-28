@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --bg-color: #050109;
+  --pink-color: #ce7da5;
+  --green-color: #dff3e3;
+  --orange-color: #ffd1ba;
+}
+
+body {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.38) 0.5px,
+      transparent 0.5px
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.38) 0.5px,
+      transparent 0.5px
+    );
+  background-size: 32px 32px;
+  background-color: #050109;
+  color: white;
+}
