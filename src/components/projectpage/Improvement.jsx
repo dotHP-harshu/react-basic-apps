@@ -13,7 +13,7 @@ function Improvement({ ImprovementArray }) {
               className="text-base max-sm:text-sm font-[paragraph] mt-2"
               key={i}
             >
-              {f}
+              {"- " + f}
             </li>
           ))}
         </ul>

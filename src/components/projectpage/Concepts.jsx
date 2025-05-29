@@ -1,4 +1,5 @@
 import React from "react";
+import { AiFillPlayCircle } from "react-icons/ai";
 
 function Concepts({ conceptArray }) {
   if (conceptArray) {
@@ -10,9 +11,10 @@ function Concepts({ conceptArray }) {
         <ul className="pl-6 mb-2">
           {conceptArray.map((c, i) => (
             <li
-              className="text-base max-sm:text-sm font-[paragraph] mt-2"
+              className="text-base max-sm:text-sm font-[paragraph] mt-2 flex items-center justify-start gap-4"
               key={i}
             >
+              <AiFillPlayCircle />
               {c}
             </li>
           ))}

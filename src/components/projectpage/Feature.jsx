@@ -1,4 +1,5 @@
 import React from "react";
+import { MdArrowForwardIos } from "react-icons/md";
 
 function Feature({ featureArray }) {
   if (featureArray) {
@@ -10,10 +11,10 @@ function Feature({ featureArray }) {
         <ul className="pl-6 mb-2">
           {featureArray.map((f, i) => (
             <li
-              className="text-base max-sm:text-sm font-[paragraph] mt-2"
+              className="text-base max-sm:text-sm font-[paragraph] mt-2 flex items-center justify-start gap-4 "
               key={i}
             >
-              {f}
+              <MdArrowForwardIos /> {f}
             </li>
           ))}
         </ul>
