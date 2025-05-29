@@ -14,6 +14,7 @@ function MiniCart() {
         conceptArray={data.concepts}
         featureArray={data.features}
         ImprovementArray={data.improvements}
+        code={data.code}
       />
     </div>
   );

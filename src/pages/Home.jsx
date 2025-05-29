@@ -5,6 +5,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { VscGithubAlt } from "react-icons/vsc";
 import { CgWebsite } from "react-icons/cg";
+import { Link } from "react-router";
 
 function Home() {
   return (
@@ -79,10 +80,13 @@ function Home() {
           </div>
 
           <div className="button mt-20 flex justify-center items-center">
-            <button className=" flex gap-4 items-center justify-centertext-lg uppercase bg-[var(--green-color)] text-[var(--bg-color)] px-6 py-2 font-mono font-thin duration-500 transition-colors hover:text-[var(--green-color)] hover:border-[var(--green-color)] hover:bg-[var(--bg-color)] border-2 border-transparent cursor-pointer">
+            <Link
+              to={"/brandpage"}
+              className=" flex gap-4 items-center justify-centertext-lg uppercase bg-[var(--green-color)] text-[var(--bg-color)] px-6 py-2 font-mono font-thin duration-500 transition-colors hover:text-[var(--green-color)] hover:border-[var(--green-color)] hover:bg-[var(--bg-color)] border-2 border-transparent cursor-pointer"
+            >
               get started
               <IoArrowForwardCircle size={24} />
-            </button>
+            </Link>
           </div>
         </div>
       </main>

@@ -11,7 +11,7 @@ function Header() {
   };
 
   return (
-    <div className="w-full flex justify-between items-center lg:px-10 sm:px-6 max-sm:px-2 min-h-16 bg-[var(--bg-color)] fixed top-0 left-0 z-20">
+    <div className="w-full shadow-pink-50 shadow-md   flex justify-between items-center lg:px-10 sm:px-6 max-sm:px-2 min-h-16 bg-[var(--bg-color)] fixed top-0 left-0 z-20">
       <span
         onClick={toggleMenu}
         className="select-none relative h-10 w-10 max-sm:h-8 max-sm:w-8"
