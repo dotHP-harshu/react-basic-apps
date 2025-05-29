@@ -1,0 +1,25 @@
+{
+  "title": "Simple Login Form",
+  "description": "This Simple Login Form is a React-based authentication system that validates user input using useReducer and manages UI flow with Context API.",
+  "features": [
+    "Login with username/password",
+    "Error handling for invalid credentials",
+    "Welcome message on login",
+    "Logout functionality"
+  ],
+  "concepts": [
+    "useReducer: Handles authentication states.",
+    "Context API: Shares login state globally.",
+    "Conditional Rendering: Manages UI flow.",
+    "Tailwind CSS: Stylish form UI.",
+    "Vite: Optimized development."
+  ],
+  "improvements": [
+    "API-based dynamic login",
+    "Secure password handling",
+    "Persistent login sessions",
+    "Forgot password feature",
+    "Accessibility enhancements"
+  ],
+  "code": "github.com/dotHP-harshu/react_basics/tree/main/Login_form"
+}

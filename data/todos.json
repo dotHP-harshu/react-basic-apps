@@ -1,0 +1,25 @@
+{
+  "title": "Todo App",
+  "description": "This Todo App is a minimalistic yet functional task management system built with React, allowing users to add, complete, and delete their todos.",
+  "features": [
+    "Enter tasks via input",
+    "Mark tasks complete",
+    "Delete tasks",
+    "Minimalist UI"
+  ],
+  "concepts": [
+    "useState: Tracks todos and updates dynamically.",
+    "Component-Based Architecture: Modular structure.",
+    "Event Handling: For task creation and deletion.",
+    "Conditional Rendering: Reflects task states.",
+    "Tailwind CSS: Clean and functional design."
+  ],
+  "improvements": [
+    "Persist todos using localStorage",
+    "Edit todos inline",
+    "Add filters: All/Completed/Pending",
+    "Dark/Light theme toggle",
+    "Drag-and-drop sorting"
+  ],
+  "code": "https://github.com/dotHP-harshu/react_basics/tree/main/Todos"
+}

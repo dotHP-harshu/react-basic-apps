@@ -1,0 +1,25 @@
+{
+  "title": "Real-Time Character Counter",
+  "description": "This Real-Time Character Counter is a React-based application that dynamically counts the number of characters typed in a textarea. It also displays the remaining characters from a predefined maximum.",
+  "features": [
+    "Real-time character count",
+    "Custom max character limit",
+    "Remaining character display with warning",
+    "Reset input"
+  ],
+  "concepts": [
+    "useState: Tracks character count dynamically.",
+    "useEffect: Updates count when the text changes.",
+    "Conditional Rendering: Applies color changes.",
+    "Component-Based Architecture: Modular design.",
+    "Tailwind CSS: Stylish minimal UI."
+  ],
+  "improvements": [
+    "Auto-save character limit",
+    "Add word count",
+    "Theme switcher (dark/light)",
+    "Auto-resize textarea",
+    "Clipboard copy button"
+  ],
+  "code": "github.com/dotHP-harshu/react_basics/tree/main/RT_character_counter/"
+}

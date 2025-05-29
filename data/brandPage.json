@@ -1,0 +1,18 @@
+{
+  "title": "Brand Page (Nike Theme)",
+  "description": "This Brand Page is a minimalistic yet visually engaging landing page built in React. It showcases a Nike brand theme with an elegant design, featuring clean typography, smooth UI components, and a simple yet effective layout for product visibility. ",
+  "features": [
+    "Navbar and main landing section",
+    "Buttons linking to shopping platforms",
+    "Mobile responsive design"
+  ],
+  "concepts": [
+    "Component-Based Architecture: The page is structured into modular components (NavBar.jsx, Main.jsx).",
+    "CSS Custom Properties: Uses: :root variables for consistent theme control.",
+    "React State & Hooks: Manages interactivity, such as navigation.",
+    "Vite for Build Optimization: Ensures fast performance.",
+    "TailwindCSS Utility Classes: Creates a sleek and scalable design."
+  ],
+  "improvements": ["Add loading animations", "Enhance SEO with metadata"],
+  "code": "github.com/dotHP-harshu/react_basics/tree/main/Brand_page"
+}

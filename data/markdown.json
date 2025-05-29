@@ -1,0 +1,25 @@
+{
+  "title": "Markdown Editor",
+  "description": "This Markdown Editor is a real-time React-based editor that supports Markdown input and renders a live preview with syntax highlighting.",
+  "features": [
+    "Live preview of markdown input",
+    "Syntax highlighting for code",
+    "Scroll-sync editor and preview",
+    "Context-based state management"
+  ],
+  "concepts": [
+    "useState: Handles live text updates.",
+    "Context API: Shares state across components.",
+    "React Markdown Rendering: Uses react-markdown and remark-gfm.",
+    "Syntax Highlighting: Via react-syntax-highlighter.",
+    "Tailwind CSS: Responsive UI."
+  ],
+  "improvements": [
+    "Theme toggler",
+    "Markdown formatting toolbar",
+    "Auto-save to localStorage",
+    "Drag-and-drop .md file import",
+    "Export markdown as PDF"
+  ],
+  "code": "github.com/dotHP-harshu/react_basics/tree/main/Markdown_editor"
+}

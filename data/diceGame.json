@@ -1,0 +1,25 @@
+{
+  "title": "Dice Game",
+  "description": "This Dice Game is a fun, interactive React-based game where players roll a dice and match their selected number to earn points. It showcases state management, conditional rendering, and an intuitive UI flow.",
+  "features": [
+    "Starter screen prompting users to begin",
+    "Player selects a number (1-6)",
+    "Dice rolls and generates a random number",
+    "Points awarded or deducted based on match",
+    "View game rules, reset score, and navigate screens"
+  ],
+  "concepts": [
+    "useState: Handles user selections, dice rolling, and score updates.",
+    "Component-Based Structure: Organizes game components like Starter.jsx, PlayGame.jsx, RollDice.jsx.",
+    "Conditional Rendering: Dynamically determines which screen to show.",
+    "Event Handling: Captures actions like number selection and dice roll.",
+    "Tailwind CSS: Responsive and modern game layout."
+  ],
+  "improvements": [
+    "Fix score update logic to preserve selectedNumber state",
+    "Add dice roll animations with Tailwind transitions",
+    "Introduce sound effects using HTML audio",
+    "Implement multiplayer mode with turn tracking",
+    "Persist score using localStorage"
+  ]
+}

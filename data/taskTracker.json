@@ -1,0 +1,25 @@
+{
+  "title": "Task Tracker App (PWA)",
+  "description": "This Task Tracker App is a React-based Progressive Web App (PWA) designed to efficiently manage tasks with a timer feature for tracking work durations.",
+  "features": [
+    "Add, edit, delete tasks",
+    "Set countdown timer for tasks",
+    "Persist data in localStorage",
+    "PWA installation"
+  ],
+  "concepts": [
+    "useState: Handles task addition, deletion, and timer behavior.",
+    "localStorage: Stores tasks persistently.",
+    "Event Handling: Captures user interactions.",
+    "Component-Based Architecture: Modular components.",
+    "Tailwind CSS: Provides dark-themed UI."
+  ],
+  "improvements": [
+    "Task categories",
+    "Recurring tasks",
+    "Sync with Firebase/Supabase",
+    "Drag-and-drop task ordering",
+    "Desktop notifications"
+  ],
+  "code": "https://github.com/dotHP-harshu/task_tracker"
+}

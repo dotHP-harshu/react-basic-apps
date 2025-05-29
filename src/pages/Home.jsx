@@ -68,7 +68,7 @@ function Home() {
         {/* right main  */}
         <div className="right-main mt-20">
           <div className="para flex justify-end mt-10">
-            <p className="text-lg text-[var(--bg-color)] font-[paragraph] max-sm:text-base p-6 relative max-sm:w-full w-3/4 before:bg-[var(--pink-color)] z-10 before:w-full before:h-full before:absolute before:top-0 before:left-0 before:-z-10 before:skew-3 hover:p-10 transition-all duration-500 before:border-2 before:border-white">
+            <p className="text-lg text-[var(--bg-color)] font-[paragraph] max-sm:text-base p-6 relative max-sm:w-full w-3/4 before:bg-[var(--pink-color)] z-10 before:w-full before:h-full before:absolute before:top-0 before:left-0 before:-z-10 before:skew-3  transition-all duration-500 before:border-2 before:border-white">
               Every project here began with a problem, a purpose, and a passion
               for learning React. As I explored hooks, routing, APIs, and modern
               UI design, these apps became more than just practice—they became

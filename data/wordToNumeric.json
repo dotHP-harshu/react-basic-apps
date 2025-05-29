@@ -1,0 +1,25 @@
+{
+  "title": "Word to Numeric Converter",
+  "description": "The Word to Numeric Converter is a React-based tool that converts written numbers (e.g., 'twenty million ten thousand three hundred four') into actual numeric values (e.g., 20010304). It\u2019s designed to handle various units, multipliers, and structured conversions efficiently.",
+  "features": [
+    "User inputs word-based number",
+    "System parses input using predefined rules",
+    "Displays converted numeric value",
+    "Styled UI with TailwindCSS"
+  ],
+  "concepts": [
+    "useState: Handles input changes and result updates.",
+    "Component-Based Structure: Modular design using Home, LeftHome, and RightHome.",
+    "Custom Logic: convertIntoNumber.js processes string to numeric value.",
+    "Tailwind CSS: Modern and responsive UI styling.",
+    "Vite: Ensures optimized builds and fast rendering."
+  ],
+  "improvements": [
+    "Support for larger numbers (e.g., trillions)",
+    "Better error feedback with suggested corrections",
+    "Optimized performance using memoization",
+    "Voice input using Web Speech API",
+    "Multi-language support with word mappings in JSON"
+  ],
+  "code": "github.com/dotHP-harshu/react_basics/tree/main/Word_to_numeric"
+}

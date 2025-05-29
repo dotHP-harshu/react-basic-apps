@@ -1,0 +1,26 @@
+{
+  "title": "Mini Cart Application",
+  "description": "This Mini Cart Application is a sleek e-commerce cart system built using React and React Router. It allows users to browse products, add items to their cart, and view the total price dynamically\u2014all within a clean, responsive interface.",
+  "features": [
+    "Home page with products from FakeStoreAPI",
+    "Cart page with dynamic total price",
+    "Add/remove items from cart",
+    "Context API and useReducer for state",
+    "Routing via react-router"
+  ],
+  "concepts": [
+    "Context API: Centralized store for managing cart items and total price.",
+    "useReducer: Handles cart updates efficiently.",
+    "Dynamic Routing: Seamless navigation using react-router.",
+    "API Integration: Pulls product data dynamically.",
+    "Tailwind CSS: Provides a clean, modern UI."
+  ],
+  "improvements": [
+    "Persist cart using localStorage",
+    "Add quantity selection",
+    "Optimize API fetch with context",
+    "Add checkout page",
+    "UI feedback with animations or toasts"
+  ],
+  "code": "github.com/dotHP-harshu/react_basics/tree/main/Mini_cart"
+}

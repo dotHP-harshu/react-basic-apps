@@ -1,0 +1,25 @@
+{
+  "title": "Drag and Drop Notes App",
+  "description": "This Drag and Drop Notes App is an interactive application built using React and React-DnD, allowing users to create notes and drag them into a bin for deletion.",
+  "features": [
+    "Create draggable notes",
+    "Drag to bin for deletion",
+    "Restore from bin",
+    "Uses localStorage for deleted notes"
+  ],
+  "concepts": [
+    "useState: Tracks notes and bin state.",
+    "React DnD: Enables drag-and-drop.",
+    "localStorage: Stores deleted notes.",
+    "Component-Based Architecture: Organized UI.",
+    "Tailwind CSS: Fast styling."
+  ],
+  "improvements": [
+    "Undo note deletion",
+    "Make bin draggable",
+    "Add note categories",
+    "Add drag animations",
+    "Auto-save notes"
+  ],
+  "code": "github.com/dotHP-harshu/react_basics/tree/main/Drag_n_drop"
+}
