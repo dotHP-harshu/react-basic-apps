@@ -6,11 +6,11 @@
 }
 @font-face {
   font-family: heading;
-  src: url(/fonts/Qilka-Bold.ttf);
+  src: url(/fonts/Butler_Bold.otf);
 }
 @font-face {
   font-family: head;
-  src: url(/fonts/Designer.otf);
+  src: url(/fonts/batmfa__.ttf);
 }
 
 :root {
@@ -30,7 +30,7 @@ body {
       rgba(255, 255, 255, 0.38) 0.5px,
       transparent 0.5px
     );
-  background-size: 32px 32px;
+  background-size: 30px 30px;
   background-color: #050109;
   color: white;
 }

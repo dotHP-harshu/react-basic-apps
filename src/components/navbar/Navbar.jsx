@@ -1,9 +1,10 @@
 import { NavLink } from "react-router";
 import Navlink from "./Navlink";
 
-function Navbar({ isShowingNav }) {
+function Navbar({ isShowingNav, navRef }) {
   return (
     <div
+      ref={navRef}
       className={`${
         isShowingNav ? "left-2" : "-left-full"
       } w-fit px-4 py-4 bg-[var(--bg-color)] fixed top-20 transition-all duration-500 lg:text-xl sm:text-lg max-sm:text-base z-20`}
@@ -26,10 +27,10 @@ function Navbar({ isShowingNav }) {
         <Navlink name={"Drag N Drop"} route={"/dragndrop"} />
         <Navlink name={"Login Page"} route={"/login"} />
         <Navlink name={"Markdown Converter"} route={"/markdownconverter"} />
-        <Navlink name={"Character Counter"} route={"/charactercounter"} />
         <Navlink name={"Mini cart"} route={"/minicart"} />
         <Navlink name={"Task Tracker"} route={"/tasktracker"} />
         <Navlink name={"Todos"} route={"/todos"} />
+        <Navlink name={"Word to Numeric"} route={"/wordtonumeric"} />
       </div>
     </div>
   );

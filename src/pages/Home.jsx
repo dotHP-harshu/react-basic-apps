@@ -6,6 +6,7 @@ import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { VscGithubAlt } from "react-icons/vsc";
 import { CgWebsite } from "react-icons/cg";
 import { Link } from "react-router";
+import "./home.css";
 
 function Home() {
   return (
@@ -15,17 +16,20 @@ function Home() {
         {/* left main  */}
         <div className="left-main relative overflow-visible">
           <div className="heading relative max-sm:flex max-sm:items-center max-sm:flex-col ">
-            <h1 className="bg-[var(--bg-color)] font-[head] whitespace-nowrap w-fit px-4 py-2 lg:text-6xl sm:text-4xl max-sm:text-2xl relative mt-6 max-sm:whitespace-break-spaces max-sm:text-center">
+            <h1
+              data-glitch="My react journey"
+              className="glitch bg-[var(--bg-color)] font-[head] whitespace-nowrap w-fit px-4 py-2 lg:text-6xl sm:text-4xl max-sm:text-2xl relative mt-6 max-sm:whitespace-break-spaces max-sm:text-center"
+            >
               My React Journey
             </h1>
             <h3 className="border-[var(--orange-color)] bg-[var(--bg-color)] text-[var(--orange-color)] border-2 font-mono w-fit px-4 py-2 lg:text-2xl sm:text-xl max-sm:text-lg tracking-wide mt-4 max-sm:text-center">
               One Project at a Time
             </h3>
-            <div className="img-container lg:px-20 sm:p-10 max-sm:p-6 flex justify-center items-center mt-10">
+            <div className="img-container w-full lg:px-20 sm:p-10 max-sm:p-6 flex justify-center items-center mt-10">
               <img
                 src="/media/icons/react.svg"
                 alt="react"
-                className="lg:w-60 sm:w-40 max-sm:w-full h-auto object-center drop-shadow-[0_0_35px_#00D8FF] "
+                className="lg:w-60 sm:w-40 max-sm:w-full h-auto object-center drop-shadow-[0_0_35px_#00D8FF] hover:animate-[spin_2s_infinite_linear] max-sm:animate-spin "
               />
             </div>
           </div>
@@ -34,7 +38,7 @@ function Home() {
         <div className="icons absolute top-1/2 left-1/2 -translate-x-1/2 bg-[var(--bg-color)] flex flex-col items-center justify-center gap-4 p-2 max-sm:static max-sm:flex-row max-sm:translate-0 max-sm:mt-10 max-sm:flex-wrap">
           <a
             title="Portfolio"
-            className="p-2 border-2 border-[var(--orange-color)] text-[--var(orange-color)]   rounded-full hover:scale-125 transition-transform duration-500"
+            className="p-2 border-2 border-[var(--orange-color)] text-[--var(orange-color)]   rounded-full hover:scale-125 transition-transform duration-500 animate-pulse"
             href="https://dothp-harshu.github.io/portfolio/"
             target="_blank"
           >
@@ -42,7 +46,7 @@ function Home() {
           </a>
           <a
             title="Instagram"
-            className="p-2 border-2 border-[var(--green-color)] text-[var(--green-color)] rounded-full hover:scale-125 transition-transform duration-500"
+            className="p-2 border-2 border-[var(--green-color)] text-[var(--green-color)] rounded-full hover:scale-125 transition-transform duration-500 animate-pulse"
             href="https://instagram.com/dothp_harshu/"
             target="_blank"
           >
@@ -50,7 +54,7 @@ function Home() {
           </a>
           <a
             title="Github"
-            className="p-2 border-2 border-[var(--pink-color)] text-[var(--pink-color)] rounded-full hover:scale-125 transition-transform duration-500"
+            className="p-2 border-2 border-[var(--pink-color)] text-[var(--pink-color)] rounded-full hover:scale-125 transition-transform duration-500 animate-pulse"
             href="https://github.com/dothp-harshu"
             target="_blank"
           >
@@ -58,7 +62,7 @@ function Home() {
           </a>
           <a
             title="Linkedin"
-            className="p-2 border-2 border-[var(--orange-color)] text-[var(--orange-color)] rounded-full hover:scale-125 transition-transform duration-500"
+            className="p-2 border-2 border-[var(--orange-color)] text-[var(--orange-color)] rounded-full hover:scale-125 transition-transform duration-500 animate-pulse"
             href="https://linkedin.com/in/dothp"
             target="_blank"
           >
@@ -69,7 +73,7 @@ function Home() {
         {/* right main  */}
         <div className="right-main mt-20">
           <div className="para flex justify-end mt-10">
-            <p className="text-lg text-[var(--bg-color)] font-[paragraph] max-sm:text-base p-6 relative max-sm:w-full w-3/4 before:bg-[var(--pink-color)] z-10 before:w-full before:h-full before:absolute before:top-0 before:left-0 before:-z-10 before:skew-3  transition-all duration-500 before:border-2 before:border-white">
+            <p className="para text-l before:bg-[var(--bg-color)] before:text-[var(--bg-color)] font-[paragraph] max-sm:text-base p-6 relative max-sm:w-full w-3/4 text-[var(--pink-color)] z-10 before:w-full before:h-full before:absolute before:top-0 before:left-0 before:-z-10 before:skew-3  transition-all duration-500">
               Every project here began with a problem, a purpose, and a passion
               for learning React. As I explored hooks, routing, APIs, and modern
               UI design, these apps became more than just practice—they became
@@ -79,7 +83,7 @@ function Home() {
             </p>
           </div>
 
-          <div className="button mt-20 flex justify-center items-center">
+          <div className="button mt-20 flex justify-center items-center animate-bounce">
             <Link
               to={"/brandpage"}
               className=" flex gap-4 items-center justify-centertext-lg uppercase bg-[var(--green-color)] text-[var(--bg-color)] px-6 py-2 font-mono font-thin duration-500 transition-colors hover:text-[var(--green-color)] hover:border-[var(--green-color)] hover:bg-[var(--bg-color)] border-2 border-transparent cursor-pointer"

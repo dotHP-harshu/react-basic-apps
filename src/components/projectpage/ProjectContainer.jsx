@@ -16,7 +16,7 @@ function ProjectContainer({
   code,
 }) {
   return (
-    <main className="lg:mx-20 sm:mx-10 max-sm:mx-4 lg:px-10 sm:px-6 max-sm:px-4 py-6 bg-[var(--bg-color)]">
+    <main className="lg:mx-20 sm:mx-10 max-sm:mx-4 lg:px-10 sm:px-6 max-sm:px-4 py-6 bg-[var(--bg-color)] border-2 border-[var(--green-color)]">
       <h1 className="lg:text-4xl sm:text-2xl max-sm:text-lg font-bold font-mono">
         {title}
       </h1>
